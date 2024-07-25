@@ -1,0 +1,142 @@
+.wallet-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+.wallet-header{
+    display: block;
+    width: 90%;
+    height: 30%;
+    background-color: rgb(250, 248, 246);
+    padding: 5px;
+}
+.transaction-history{
+    display: block;
+    height: 60%;
+    width: 90%;
+    padding: 10px;
+}
+.transaction-history h2{
+    text-align: left;
+    font-family: roboto-medium;
+    font-size: 20px;
+}
+.transaction-history #transaction-list{
+    display: block;
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    margin: auto;
+    list-style: none;
+    padding: 0%;
+}
+.transaction-history #transaction-list li{
+    background-color: #F9F9F9;
+    margin-bottom: 2px;
+    border: 1px solid #e2e0df;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-header-wallet{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-header-wallet h1{
+    font-family: roboto-bold;
+    font-size: 25px;
+    padding: 0%;
+    color: #333;
+}
+#cont-p-balance{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    padding: 5px;
+}
+
+#cont-p-balance .cont-balance, #cont-p-balance .cont-point{
+    background-color: #F9F9F9;
+    border: 1px solid #E0E0E0;
+    padding: 5px;
+}
+
+#cont-p-balance .cont-balance #balance, #cont-p-balance .cont-point #points{
+    font-family: roboto-medium;
+    font-size: 16px;
+    color: #B8511D;
+}
+.cont-btn-w{
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-btn-w button i svg{
+    fill: #333;
+}
+.cont-btn-w button i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+}
+.cont-btn-w button p{
+    font-size: 11px;
+    font-family: roboto-medium;
+    margin: 0%;
+}
+
+.cont-btn-w button{
+    display: block;
+    background-color: none;
+    border: none;
+    background-color: #eeeae8;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    height: 40px;
+}
+
+#cont-p-balance .cont-balance{
+    width: 55%;
+}
+
+#cont-p-balance .cont-point{
+    width: 40%;
+}
+
+#cont-p-balance .cont-point .cont-btn-w button{
+    width: 70%;
+}
+
+#cont-p-balance .cont-balance .cont-header-balance, #cont-p-balance .cont-point .cont-header-point{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0%;
+    height: 25px;
+}
+
+#cont-p-balance .cont-balance .cont-header-balance svg, #cont-p-balance .cont-point .cont-header-point svg{
+    fill: #333;
+}
+
+#cont-p-balance .cont-balance .cont-header-balance p, #cont-p-balance .cont-point .cont-header-point p{
+    color: #333;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    font-family: roboto-regular;
+    font-size: 18px;
+}

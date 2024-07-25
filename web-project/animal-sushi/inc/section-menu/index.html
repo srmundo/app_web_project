@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Sushi</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+  </head>
+  <body>
+    <div class="container-all-section-menu" id="body-section-menu">
+      <header>
+        <div class="container-header">
+          <h1>Menu</h1>
+          <div class="cont-btn-header">
+            <button class="cart-btn">
+              <p id="view-total-cart">0.00 $</p>
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
+              <i class="cart-counter"></i>
+            </button>
+            <button class="menu-btn">Menú</button>
+            <nav class="menu-options">
+              <ul>
+                <li><a href="#">Configuración</a></li>
+                <li><a href="#">Lenguaje</a></li>
+                <li><a href="#">Salir</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="cont-search-container">
+          <div class="search-container">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Buscar por nombre, categoría o precio..."
+            />
+            <button id="search-button">
+
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="cont-cat-menu-sushi">
+          <!-- Contenido principal de la aplicación -->
+          <aside class="categories">
+            <h2>Categorías</h2>
+            <ul class="category-list">
+              <li><a href="#" data-category="todos">Todos</a></li>
+              <li><a href="#" data-category="combinados">Combinados</a></li>
+              <li>
+                <a href="#" data-category="platos-calientes"
+                  >Platos Calientes</a
+                >
+              </li>
+              <li><a href="#" data-category="sushi">Sushi</a></li>
+              <li><a href="#" data-category="entradas">Entradas</a></li>
+              <li><a href="#" data-category="sobremesas">Sobremesas</a></li>
+              <li><a href="#" data-category="bebidas">Bebidas</a></li>
+            </ul>
+          </aside>
+          
+          <div class="content-sushi-menu">
+            <section class="sushi-menu">
+              <!-- Aquí van los productos de sushi -->
+
+              <!-- Otros productos de sushi -->
+            </section>
+          </div>
+        </div>
+
+        <aside class="cart">
+          <div class="cont-header-cart">
+            <h2>Carrito</h2><a href="#" id="btn-x-cart">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>  
+          </div>
+          <ul class="cart-items">
+            <!-- Aquí se mostrarán los ítems añadidos al carrito -->
+          </ul>
+          <div class="cart-total">
+            <p>Total: $<span id="cart-total">0.00</span></p>
+          </div>
+          <div class="cart-actions">
+            <button class="checkout-btn">Pagar</button>
+            <button class="clear-cart-btn">Vaciar carrito</button>
+          </div>
+        </aside>
+      </main>
+    </div>
+    <!-- Script para la funcionalidad del carrito -->
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
