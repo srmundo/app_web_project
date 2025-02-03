@@ -1058,3 +1058,410 @@ td {
   font-size: 100px;
   color: #00000049;
 }
+.container-goals {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container-goals .title-goals {
+  display: flex;
+  background-color: #9f88f2;
+}
+
+.container-goals .title-goals h4 {
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: poppins-bold;
+  color: #24135f;
+}
+
+#goal-form {
+  display: flex;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #b6b6b6;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+#goal-form .form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#goal-form .form-group label {
+  font-family: poppins-regular;
+  font-size: 12px;
+  text-align: left;
+  width: 100%;
+}
+
+#goal-form .form-group input {
+  padding: 5px;
+  font-size: 12px;
+  font-family: poppins-regular;
+  border: 1px solid #b6b6b6;
+  outline: none;
+}
+
+#goal-form .form-group #goal-amount{
+  width: 100px;
+  height: 18px;
+}
+
+#goal-form .form-group #goal-name{
+  width: 90%;
+  height: 18px;
+}
+
+#goal-form .form-group #goal-date{
+  width: 90%;
+  height: 18px;
+}
+
+#goal-form #cont-btn-goal{
+  display: flex;
+  justify-content: center;
+  align-items: center;padding-top: 4px;
+}
+
+#goal-form button {
+  font-size: 12px;
+  font-family: poppins-regular;
+  padding: 5px;
+  height: 29px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #b6b6b6;
+  transition: all 0.2s;
+}
+
+#goal-form button:hover {
+  background-color: #55d976;
+  border: 1px solid #5ca16e;
+}
+
+#goal-list {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.goal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-family: poppins-regular;
+}
+
+.goal-table th {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+  font-family: poppins-medium;
+  position: sticky;
+  top: 0;
+}
+
+.goal-table td {
+  text-align: center;
+  padding: 4px;
+  font-family: poppins-regular;
+  max-width: 100px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+.goal-table td button {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.goal-table td button:first-child {
+  background-color: #4930a3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: poppins-medium;
+  font-size: 10px;
+}
+
+.goal-table td button:first-child:hover {
+  background-color: #24135f;
+}
+
+.goal-table td button:nth-child(2) {
+  background-color: #800808;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: poppins-medium;
+  font-size: 10px;
+}
+
+.goal-table td button:nth-child(2):hover {
+  background-color: #991c1c;
+}
+
+.goal-table th, td {
+  border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.goal-table tr:hover td {
+  cursor: pointer;
+  background-color: #ebd3f5;
+}
+
+.container-settings {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.container-settings .title-settings {
+  display: flex;
+  background-color: #9f88f2;
+}
+
+.container-settings .title-settings h4 {
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: poppins-bold;
+  color: #24135f;
+}
+
+.settings-section {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #b6b6b6;
+  margin: 10px 0;
+}
+
+.settings-section h2 {
+  font-family: poppins-bold;
+  font-size: 16px;
+  color: #130938b7;
+  margin-bottom: 10px;
+}
+
+.settings-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.settings-section ul li {
+  margin-bottom: 10px;
+}
+
+.settings-section ul li a {
+  font-family: poppins-regular;
+  font-size: 14px;
+  color: #24135f;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.settings-section ul li a:hover {
+  color: #643df2;
+}
+
+.container-profile {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.container-profile h1 {
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: poppins-bold;
+  color: #24135f;
+}
+
+.profile-details {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #b6b6b6;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile-fields{
+  width: 70%;
+}
+.profile-field {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile-field label {
+  font-family: poppins-regular;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.profile-field input {
+  padding: 5px;
+  font-size: 12px;
+  font-family: poppins-regular;
+  border: 1px solid #b6b6b6;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.profile-field input:focus {
+  border: 1px solid #24135f;
+}
+
+.profile-details button {
+  font-size: 12px;
+  font-family: poppins-regular;
+  padding: 5px;
+  height: 29px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #b6b6b6;
+  transition: all 0.2s;
+}
+
+.profile-details button:hover {
+  background-color: #55d976;
+  border: 1px solid #5ca16e;
+}
+
+#image-preview-container{
+  position: relative;
+  background-color: #182768;
+  width: 100px;
+  height: 100px;
+}
+
+.profile-image-field{
+  width: 30px;
+  position: absolute;
+  left: 70%;
+  top: 70%;
+}
+
+.profile-image-preview{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.profile-image-preview img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#label-profile-image{
+  background-color: #9f88f2;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#label-profile-image span{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.about-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #b6b6b6;
+  margin: 10px 0;
+}
+
+.about-profile h2 {
+  font-family: poppins-bold;
+  font-size: 16px;
+  color: #130938b7;
+  margin-bottom: 10px;
+}
+
+.about-profile table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-family: poppins-regular;
+}
+
+.about-profile th {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+  font-family: poppins-medium;
+  position: sticky;
+  top: 0;
+}
+
+.about-profile td {
+  text-align: center;
+  padding: 4px;
+  font-family: poppins-regular;
+  max-width: 100px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+.about-profile td button {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.about-profile td button:first-child {
+  background-color: #4930a3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: poppins-medium;
+  font-size: 10px;
+}
+
+.about-profile td button:first-child:hover {
+  background-color: #24135f;
+}
+
+.about-profile td button:nth-child(2) {
+  background-color: #800808;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: poppins-medium;
+  font-size: 10px;
+}
+
+.about-profile td button:nth-child(2):hover {
+  background-color: #991c1c;
+}
+
+.about-profile th, td {
+  border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.about-profile tr:hover td {
+  cursor: pointer;
+  background-color: #ebd3f5;
+}
